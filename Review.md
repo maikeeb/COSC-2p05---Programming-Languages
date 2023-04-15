@@ -18,7 +18,8 @@
 > + A **fixed heap-dynamic array** is similar to a fixed stack dynamic array, in that the subscript ranges and the storage binding are bothe fixed after storage is allocated. However, both bindings are done during useing the heap
 > + A **heap-dynamic array** is one in which the binding of subscript ranges and storage allocation is dynamic and can change any number of times during the array's lifetime
 + Reference types vs. pointers, i.e., pointers allow arithmetic operations on them; reference type variables do not.
->
+> A **pointer** holds the memory location of a variable and you can move a pointer around to different memory location
+>A **reference** holds the memory location of a variable but cannot changed/re-assigned to a different variable
 + Dangling pointers, i.e., a pointer that contains an address that has been deallocated.
 >
 + Activation record of a subprogram. It needs to include local variables, parameters, dynamic link, and return address.
