@@ -21,7 +21,7 @@
 > A **pointer** holds the memory location of a variable and you can move a pointer around to different memory location. Moving the original variable does not move the pointer.
 >A **reference** holds the memory location of a variable but cannot changed/re-assigned to a different variable. Moving the variable will also move the reference.
 + Dangling pointers, i.e., a pointer that contains an address that has been deallocated.
-> Dangling pointers can be dangerous as it is impossible to know what the computer 
+> Dangling pointers can be dangerous as it is impossible to know what the computer puts in the memory. Can lead to errors.
 + Activation record of a subprogram. It needs to include local variables, parameters, dynamic link, and return address.
 >
 
