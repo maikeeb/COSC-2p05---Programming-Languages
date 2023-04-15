@@ -14,3 +14,10 @@
 
 ## Blocks 
 + Many languages allow new static scopes to be defined in the midst of executable code via blocks
+
+![Alt text](POWERPNT_8tz4AymlJZ.png)
+
+## Dynamic Scope
++ Based on the calling sequence of subprograms
++ Can Only be determined at run time
++ Used in APL, SNOBOL, early LIPS
