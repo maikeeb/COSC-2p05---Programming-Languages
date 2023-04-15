@@ -11,3 +11,6 @@
       - Any C-Based language
       
 ![Alt text](POWERPNT_P2PvuQbysF.png)
+
+## Blocks 
++ Many languages allow new static scopes to be defined in the midst of executable code via blocks
