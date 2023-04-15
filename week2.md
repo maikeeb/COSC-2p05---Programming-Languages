@@ -17,6 +17,11 @@
 >>input/output, 
 >>report generating facilities
 
-- Huge language with a lot of features
-    
++ Huge language with a lot of features; first in having
+  - Creating concurrently executing subprograms
+  - Exception handling (23 different exceptions)
+  - Efficient linking for nonrecursive subprograms
+  - Pointers were included as a data type
+
+  
 
