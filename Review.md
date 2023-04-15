@@ -12,10 +12,11 @@
 + Static variables cannot implement recursion.
 >
 + Arrays: Static vs. Fixed-stack dynamic vs. Stack-dynamic vs. Fixed heap-dynamic vs. Heap-dynamic.
-> + A static array is one in which the subscript ranges are statically bound and storage allocation is static
-> + A fixed stack-dynamic array is one in which the subscript ranges are satically bound, but the allocation is done at declaration eleboration time during execution
-> + A stack-dynamic array is one in which bothe subscripts ranges and the storage allocation are dynamically bound at elaboration time.
-> + A fixed heap-dynamic array is similar to a fixed 
+> + A **static array** is one in which the subscript ranges are statically bound and storage allocation is static
+> + A **fixed stack-dynamic array** is one in which the subscript ranges are satically bound, but the allocation is done at declaration eleboration time during execution
+> + A **stack-dynamic array** is one in which bothe subscripts ranges and the storage allocation are dynamically bound at elaboration time.
+> + A **fixed heap-dynamic array** is similar to a fixed stack dynamic array, in that the subscript ranges and the storage binding are bothe fixed after storage is allocated. However, both bindings are done during useing the heap
+> + A **heap-dynamic array** is one in which the binding of subscript ranges and storage allocation is dynamic and can change any number of times during the array's lifetime
 + Reference types vs. pointers, i.e., pointers allow arithmetic operations on them; reference type variables do not.
 >
 + Dangling pointers, i.e., a pointer that contains an address that has been deallocated.
