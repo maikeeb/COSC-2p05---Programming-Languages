@@ -23,7 +23,7 @@
 + Dangling pointers, i.e., a pointer that contains an address that has been deallocated.
 > Dangling pointers can be dangerous as it is impossible to know what the computer puts in the memory. Can lead to errors.
 + Activation record of a subprogram. It needs to include local variables, parameters, dynamic link, and return address.
->
+> section in code that holds what the current function is currently manipulating while also pointing to where the PC came from.
 
 + Abstract data types – A tool for data abstraction
 >
