@@ -1,8 +1,9 @@
 # IMPORTANT DEFINITIONS AND CONCEPTS
 + Aliasing, i.e., two variables are bound to the same address.
-> this is when two pointers 
+> this is when two pointers have the same pointer 
+> changing one changes the other
 + Programming language categories: Imperative, + Object-oriented,  Functional and Logic programming languages.
->
+> 
 + Keywords vs. reserved words. A keyword is a word in a programming language that has a special meaning in certain contexts. A reserved word cannot be used as a name for a variable.
 >
 + Attributes of a variable: Name, Address, Value, Type.
