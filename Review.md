@@ -28,7 +28,7 @@
 + Abstract data types – A tool for data abstraction
 >
 + Friend classes. Some languages do not have this concept because it can be implemented by alternative means. For example, Java provides packages and package scope.
->
+> Friend classes are a more loose version of sibling classes where they don't need to have the same parent classes but the still rely and talk to each other using functions.
 + Assignment for stack-dynamic objects. This is problematic because the variable a might not have enough space to store an object that is of a subclass.
 >
 + Dynamically bound methods in languages. Default vs. explicit language construction. For example, C++ requires that the method is declared virtual.
