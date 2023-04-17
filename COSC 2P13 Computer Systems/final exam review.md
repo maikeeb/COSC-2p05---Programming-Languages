@@ -331,4 +331,12 @@
   - File allocation
   >
 
-##
+## Networking
+
++ End to end communication
+  - loss
+  >
+  - delay 
+  >
+  - throughput
+  >
