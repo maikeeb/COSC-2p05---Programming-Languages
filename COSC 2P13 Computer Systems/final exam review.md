@@ -147,6 +147,8 @@
     >   + any process whose size is less than or equal to the partition size can be loaded into an available partition
     >   + Operating system can swap a process out of partition if all partitions are full
     >  + Program may not fit in a partition
+    >  + **causes internal fragmentation**
+    ![Alt text](chrome_lE89sMisTh.png)
     - Dynamic partitioning
     >
     - Simple paging
