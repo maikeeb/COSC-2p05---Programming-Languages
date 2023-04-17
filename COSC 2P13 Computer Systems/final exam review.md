@@ -171,8 +171,9 @@
     > + avoids internal fragmentation
 
 - **Virtual Memory**
-  + Trashing
-  >
+  + Thrashing
+  > - Swapping out a piece of a process just before that piece is needed 
+  > - The processor spends most of its time swapping pieces rather than executing user instructions
   + Principle of locality
   >
   + Strategies
