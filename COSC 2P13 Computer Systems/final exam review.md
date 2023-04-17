@@ -454,3 +454,56 @@
     >
 
 ## Distributed System Management
+
+- process migration
+  + Motivation
+  >
+  + freezing a process and pending messages
+  >
+- distributed global states
+>
+- - Distributed snapshot algorithm
+  > 
+
+- Distributed mutual exclusion
+>
+- + lamport algorithm
+  >
+  + mutual exclusion algorithm
+  >
+
++ distributed deadlock detection
+>
+
+## Virtualization
+
++ Hypervisors
+>
++ Reasons for virtualization
+>
++ - consolidation ratio
+  >
++ Paravirtualization
+>
++ containers
+>
+
+## Cloud computing 
+- definition -> elastic, on-demand, anywhere/anytime
+>
+- service models
+>
+- deployment models
+>
+- cloud OS
+>
+
+## Security
+- CIA Triad
+>
+- Types of threats (Interruption, Interception, modification, fabrication)
+> 
+- Computer System Assets
+>
+- Access control
+>
