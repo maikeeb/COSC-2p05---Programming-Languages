@@ -110,10 +110,10 @@
 > Only one proccess can have access to a critical region in main memory
 
 + Busy Waiting:
-> W
+> Keep busy in areas that arent in the critical region until it is your turn in the critical region
 
 + Sleep and wakeup
->
+> 
 
 + semaphore
 >
