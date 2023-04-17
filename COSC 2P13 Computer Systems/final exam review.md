@@ -185,7 +185,10 @@
     >   - contains the frame number of the corresponding page in main memory
     > + a bit is needed to indicate whether the page is in main memory or not![Alt text](chrome_iCASBIPPFx.png)
     - Segmentation
-    >
+    > + May be unequal -> dynamic size
+    > + simplifies handling of growing data structures
+    > + allows programs to be altered and recompiled independently 
+    >   - multiple segments
   + Placement policy
   >
   + Replacement policy (caching concept)
