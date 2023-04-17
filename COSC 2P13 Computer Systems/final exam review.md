@@ -414,3 +414,12 @@
 
 + features of real-time systems
 > 
++ Classification
+  + Hard
+  >
+  + Soft
+  >
+  + Aperiodic
+  >
+  + period
+  >
