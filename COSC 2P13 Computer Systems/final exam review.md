@@ -211,7 +211,12 @@
   + Cpu utilization
   > the percentage of time the cpu is "working" during a given time
   + Preemptiveness
-  >
+  > time sharing
+  > + running processes may be interupted
+  >   - os moves it to the ready state
+  >   - downside: more overheads
+  > + Better service
+  >   - no process can monopolize the processor for very long
   + Scheduling policies
     - FCFS
     >
