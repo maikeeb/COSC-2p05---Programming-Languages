@@ -162,7 +162,10 @@
     >   - Chunks of a process are called pages
     >   - Chunks of memory are called frames
     > + Operating system maintain a **page table** for each process![Alt text](chrome_sqjCIdZ8XU.png)
+    > + reduces internal fragmentation
+    > + avoids external fragmentation
     - Simple segmentation 
+    > + 
 
 - **Virtual Memory**
   + Trashing
