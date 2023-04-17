@@ -190,9 +190,11 @@
     > + allows programs to be altered and recompiled independently 
     >   - multiple segments![Alt text](chrome_04bDvO3iSx.png)
   + Placement policy
-  > - 
+  > - it determines where in real memory a process peice is to reside
+  > - important in a segmentation system 
   + Replacement policy (caching concept)
-  >
+  > + page removed should be the page lest likely to be referenced in the near future
+  > + most policies predict the future behaviour on the basis of past behaviour
 
 ## Process Scheduling in Uniprocessor Systems
 
