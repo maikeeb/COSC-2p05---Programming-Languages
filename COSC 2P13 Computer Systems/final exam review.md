@@ -54,8 +54,11 @@
 
 #### Process
 + PCB
->
-
+> Stands for **P**rocess **C**ontrol **B**lock
+> + Contains the process elements
+> + Created and manage by operating sysem
+> + Allows support for multiple process
+![Alt text](chrome_LpVyC0NnSm.png)
 + Seven-state process model
 >
 
