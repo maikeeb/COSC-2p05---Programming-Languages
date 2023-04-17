@@ -84,11 +84,16 @@
 ![Alt text](chrome_6HJk1TBbDr.png)
 + Types of threads:
   - user-level
-  >
+  > * All thread management is done by the application
+  > * The kernel is not aware of the existence of threads
   - kernel-level
-  >
+  > * Kernel maintains context information for the process and the threads
+  > * Scheduling is done ona  thread basis
+  > * Example: Windows
   - combined
-  >
+  > * Thread creation done in the user space
+  > * Bulk of scheduling and synchronization of threads within application
+  > * Example: Solaris
 
 + Race conditions:
 >
