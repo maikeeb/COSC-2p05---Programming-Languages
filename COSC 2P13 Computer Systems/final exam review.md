@@ -113,13 +113,14 @@
 > Keep busy in areas that arent in the critical region until it is your turn in the critical region
 
 + Sleep and wakeup
-> 
+> Program goes to sleep after asking for critical region
+> + fatal error: if 
 
 + semaphore
 >
 
 + Mutex
->
+> short hand for mutual exclusion 
 
 ## Memory management
 
