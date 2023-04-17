@@ -28,11 +28,11 @@
 
 + Uniprogramming
 > Processor must wait for I/O instructions to complete before preceding
-![Alt text](chrome_RfHR2yI1K1.png)
+> ![Alt text](chrome_RfHR2yI1K1.png)
 + Multiprogramming
 > When one jobes needs to wait for I/O
 > + The processor can switch to another other job
-![Alt text](chrome_mtZW3WL3Cs.png)
+> ![Alt text](chrome_mtZW3WL3Cs.png)
 + Time sharing
 > + Using multiprogramming to handle mutliple interactive jobs
 > + Processor's time is shared among multiple users
@@ -58,7 +58,7 @@
 > + Contains the process elements
 > + Created and manage by operating sysem
 > + Allows support for multiple process
-![Alt text](chrome_LpVyC0NnSm.png)
+> ![Alt text](chrome_LpVyC0NnSm.png)
 + Seven-state process model
 >![Alt text](chrome_LmOeUXPGZW.png)
 > **supsended** allows the cpu to take out processes out of main memory as it waiting for the I/O to respond with the need information to finish the process
