@@ -88,7 +88,7 @@
   > * The kernel is not aware of the existence of threads
   - kernel-level
   > * Kernel maintains context information for the process and the threads
-  > * Scheduling is done ona  thread basis
+  > * Scheduling is done on a thread basis
   > * Example: Windows
   - combined
   > * Thread creation done in the user space
@@ -96,7 +96,12 @@
   > * Example: Solaris
 
 + Race conditions:
->
+> - Two processes want to access shared memory at same time
+> - Two or more processes are reading and writing some shared data 
+> **To avoid this** kind of situation
+>   + Synchronization of process
+>   + Mutual exclusion
+>     - Preventing more than one process from using the shared memory at the same time
 
 + Critical Regions:
 >
