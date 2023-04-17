@@ -251,7 +251,9 @@
 
 ## Deadlocks
 - deadlock definition
->
+> A set of processes
+> + if each process in the set waits for an event 
+> + event can be generated only by another process in the set that is already waiting for another "internal" event
 - livelock
 >
 - starvation
