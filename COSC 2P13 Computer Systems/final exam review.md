@@ -188,9 +188,9 @@
     > + May be unequal -> dynamic size
     > + simplifies handling of growing data structures
     > + allows programs to be altered and recompiled independently 
-    >   - multiple segments
+    >   - multiple segments![Alt text](chrome_04bDvO3iSx.png)
   + Placement policy
-  >
+  > - 
   + Replacement policy (caching concept)
   >
 
