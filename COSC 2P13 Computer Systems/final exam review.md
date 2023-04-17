@@ -305,7 +305,12 @@
 >
 - Performing I/O
   + Programmed I/O
-  >
+  > simplest way
+  > - ties up CPU full time with I/O operations
+  > - CPU busy waiting 
+  >   + okay for embedded systems
+  >   + not ok for more complex systems
+  > ![Steps in printing a string](chrome_9iwnCQY1T0.png)
   + Interrupt-driven I/O
   >
   + Direct Memory Access (DMA)
