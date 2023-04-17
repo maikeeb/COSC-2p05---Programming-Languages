@@ -221,13 +221,32 @@
     - FCFS
     > First come first served
     > ie. first in for out (FIFO)
+    >![Alt text](chrome_FZwQDWYTBv.png)
     - Round-Robin
-    > 
+    > Straightforward scheme
+    > + preemption
+    > + clock interrupt
+    > ![Alt text](chrome_9yK6BQS5Dx.png)
     - Shortest process next
-    >
+    > to reduce bias in favor of long processes
+    > + no time slicing
+    > + greedy approach: optimization problems
+    > + drawbacks:
+    >   - rely on statistics (previous runs)
+    >![Alt text](chrome_E2Ssx4jJOJ.png)
     - Highest response ration next
-    >
+    > Choose next process with greatest ratio
+    > - Ratio → (w + s ) / s
+    >   + w → time waiting for processor
+    >   + s → expected service time
+    >![Alt text](chrome_mUbd2CUkvX.png)
     - Feedback
+    > + No way to estimate the relative length of a process
+    >   - no use of SPN, SRT, HRRN
+    > + use of preemption and dynamic priorities
+    >   - Multiple queues -> process move down per preemption
+    > + Penalizes jobs that have been running longer
+    > ![Alt text](chrome_ptQ4AJkE86.png)
 
 
 ## Deadlocks
