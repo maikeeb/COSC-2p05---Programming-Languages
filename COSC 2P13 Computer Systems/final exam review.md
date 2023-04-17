@@ -113,11 +113,13 @@
 > Keep busy in areas that arent in the critical region until it is your turn in the critical region
 
 + Sleep and wakeup
-> Program goes to sleep after asking for critical region
-> + fatal error: if 
+> process goes to sleep after asking for critical region
+> + fatal error: if process is told to wake up before finishing to go to sleep, the process will never wake up
 
 + semaphore
->
+>  A variable that other threads/processes can read that says the state of the process/thread, used for syncrhonization
+> + **Counting** used for showing how many steps into the process the process is
+> + **Binary** used for showing if it is ready for a critical region or if just ready to move on
 
 + Mutex
 > short hand for mutual exclusion 
