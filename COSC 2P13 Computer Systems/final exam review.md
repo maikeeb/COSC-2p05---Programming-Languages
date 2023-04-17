@@ -368,4 +368,20 @@
   >
   - Routing alorithms
   >
-  - 
+  - Hierarchical routing
+  >
++ Link layer -> frames
+>
+- + Mac protocols
+  >
+  + TDMA
+  >
+  + FDMA
+  > 
+  + CSMA
+  >
+  + Adress resolution protocol (ARP)
+  >
+  + Switches vs routers
+  >
+
