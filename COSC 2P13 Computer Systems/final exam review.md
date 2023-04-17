@@ -199,15 +199,17 @@
 ## Process Scheduling in Uniprocessor Systems
 - Scheduling in Uniprocessor Systems
   + Turnaround
-  >
+  > (completion - submission) time
   + Response time
-  >
+  > request vs response (time)
   + throughput
-  >
+  > maximum number of processes complete per time
   + fairness
-  > 
+  > to treat processes the same
+  > + enforcing policies
+  > + balancing resources
   + Cpu utilization
-  > 
+  > the percentage of time the cpu is "working" during a given time
   + Preemptiveness
   >
   + Scheduling policies
