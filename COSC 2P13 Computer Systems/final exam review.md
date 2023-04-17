@@ -150,7 +150,9 @@
     >  + **causes internal fragmentation**
     ![Alt text](chrome_lE89sMisTh.png)
     - Dynamic partitioning
-    >
+    > + Partitions are of variable length and number
+    > + Process is allocated exactly as much memory is required
+    > + **External fragmentation** eventually get holes in the memory (inefficiency)
     - Simple paging
     >
     - Simple segmentation 
