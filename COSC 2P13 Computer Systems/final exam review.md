@@ -5,10 +5,12 @@
 ## Introduction
 
 + Top level Components
->
+> CPU connected to the main memory and I/O module using the system bus. The cpu does all the calculations, the main memory holds the data from the current processes and the I/O module is used to get more information which the main memory doesnt have access to ie. secondary memory, user input (keyboard mouse)
 
 + Memory Hierarchy
->
+>Faster access time, greater cost per bit
+>Greater capacity, smaller cost per bit
+>Greater capacity, slower access speed
 
 + Interrupts
 >
