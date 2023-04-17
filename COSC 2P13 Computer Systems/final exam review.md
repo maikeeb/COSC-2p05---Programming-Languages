@@ -28,16 +28,22 @@
 
 + Uniprogramming
 > Processor must wait for I/O instructions to complete before preceding
-
+![Alt text](chrome_RfHR2yI1K1.png)
 + Multiprogramming
 > When one jobes needs to wait for I/O
 > + The processor can switch to another other job
 ![Alt text](chrome_mtZW3WL3Cs.png)
 + Time sharing
->
+> + Using multiprogramming to handle mutliple interactive jobs
+> + Processor's time is shared among multiple users
+> + Multiple users simultaneously access the system through terminals
+> + **Time Slicing** 
+>   - Regular time intervals
+>   - Preemption -> switch jobs(users)
 
 + Address space
->
+> Space in the main memory to hold a program/process
+> 
 
 + System Calls
 >
