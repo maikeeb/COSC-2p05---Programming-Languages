@@ -340,3 +340,22 @@
   >
   - throughput
   >
++ Protocol layers
+>
++ Application layer
+>
++ Transport layer -> ports
+>
+- - TCP
+  >
+  - UDP
+  >
+  - Acknowledgements
+  >
+
++ Flow
+>
++ congestions
+>
++ window
+>
