@@ -311,3 +311,24 @@
 >
 + Spooling
 >
+
++ Disk scheduling
+  - performance
+  >
+  >  + Seektime
+    >
+  >  + Arm scheduling algorithms
+    >
+
+## File Systems
+
++ File Organization
+>
++ File record organization
+>
+
++ Secondary storage management
+  - File allocation
+  >
+
+##
