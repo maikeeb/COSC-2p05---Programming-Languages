@@ -14,7 +14,9 @@
 ![Alt text](chrome_ZEl8IvTlve.png)
 ![Alt text](chrome_t18lR0saNH.png)
 + Interrupts
->
+> Interrupt the normal sequencing of the processor
+> Most I/O devices are slower than the processor
+> Processor must pause to wait for device
 
 + Uniprogramming
 >
