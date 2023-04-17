@@ -296,7 +296,11 @@
 ## Input and Output
 
 - Device Controllers
->
+> eletronic component = device controller
+> Controller's tasks 
+> - To convert serial bit stream to block of bytes
+> - To perform error correction as neccesary 
+> - To make data available to main memory
 - Role of interrupts
 >
 - Performing I/O
