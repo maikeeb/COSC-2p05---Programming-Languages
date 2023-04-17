@@ -300,4 +300,14 @@
 - Role of interrupts
 >
 - Performing I/O
-> 
+  + Programmed I/O
+  >
+  + Interrupt-driven I/O
+  >
+  + Direct Memory Access (DMA)
+  >
+
++ Buffering
+>
++ Spooling
+>
