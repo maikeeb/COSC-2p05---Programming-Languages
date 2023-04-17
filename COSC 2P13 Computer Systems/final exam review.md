@@ -42,8 +42,10 @@
 >   - Preemption -> switch jobs(users)
 
 + Address space
-> Space in the main memory to hold a program/process
-> 
+> + Space in the main memory to hold a program/process
+> + Processes address up to 64 bits spaces in main memory 
+>   - Processes requiring more than that
+>     + Virtual memory
 
 + System Calls
 >
