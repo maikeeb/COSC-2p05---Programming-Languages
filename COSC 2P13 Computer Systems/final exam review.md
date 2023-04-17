@@ -156,6 +156,12 @@
     - Simple paging
     > + fixed and variable-size partitions are inefficient
     >   - internal and external fragmentation
+    > + Paging Scheme -> improvement
+    >   - Partitioning memory into small equal fixed-size chunks
+    >   - Dividing each process into the small size chunks
+    >   - Chunks of a process are called pages
+    >   - Chunks of memory are called frames
+    > + Operating system maintain a **page table** for each process![Alt text](chrome_sqjCIdZ8XU.png)
     - Simple segmentation 
 
 - **Virtual Memory**
