@@ -154,7 +154,8 @@
     > + Process is allocated exactly as much memory is required
     > + **External fragmentation** eventually get holes in the memory (inefficiency)![Alt text](chrome_ESRug3ABe1.png)
     - Simple paging
-    >
+    > + fixed and variable-size partitions are inefficient
+    >   - internal and external fragmentation
     - Simple segmentation 
 
 - **Virtual Memory**
