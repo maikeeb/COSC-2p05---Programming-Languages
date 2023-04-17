@@ -72,10 +72,12 @@
 > light-weight process
 
 + Benefits
-> + resource ownership
->   - process includes a virtual adress space to hold the process image
-> + scheduling/execution
->   - Follows an execution path that may be interleaved with other processes
+> + Light weight
+>   - Less time to create a new thread than a process
+>   - Less time to terminate a thread than a process
+>   - Less time to switch between two threads within the same process
+> + Sharing memory and files within same process
+>   - Inter-thread communication without invoking the kernel
 
 + Multithread process model
 > Operating system supports multiple threads of execution within a single process
