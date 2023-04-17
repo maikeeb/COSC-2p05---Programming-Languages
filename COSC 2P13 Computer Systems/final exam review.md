@@ -60,8 +60,10 @@
 > + Allows support for multiple process
 ![Alt text](chrome_LpVyC0NnSm.png)
 + Seven-state process model
->
-
+>![Alt text](chrome_LmOeUXPGZW.png)
+> **supsended** allows the cpu to take out processes out of main memory as it waiting for the I/O to respond with the need information to finish the process
+> **Blocked** is where process go when an event/interrupt occurs which doesnt always need to be taken out of the memory as the event might not last long
+> **Ready/Running** all programs that are being run is being cycled through ready and running for the cpu to work a little bit then alternate between the processes to make it seem like its doing multiple things simulatinously
 + Time sharing
 >
 
