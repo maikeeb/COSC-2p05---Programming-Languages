@@ -48,7 +48,7 @@
 >     + Virtual memory
 
 + System Calls
->
+> + Programmtice method to request a service from the kernel
 
 ## Process and Threads
 
