@@ -79,7 +79,7 @@
 
 + Multithread process model
 > Operating system supports multiple threads of execution within a single process
-
+![Alt text](chrome_6HJk1TBbDr.png)
 + Types of threads:
   - user-level
   >
