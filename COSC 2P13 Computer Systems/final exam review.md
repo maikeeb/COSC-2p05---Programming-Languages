@@ -423,3 +423,34 @@
   >
   + period
   >
++ Scheduling 
+  - Classification
+  >
+  - Approaches
+  >
++ Rate monotonic scheduling 
+>
++ Priority inversion
+>
+
+## Distributed Systems
++ Difference between fat vs. thin clients
+>
++ caching
+>
+
++ middleware
+  - classification
+    + blocking vs nonblocking
+    >
+    + reliable vs unreliable
+    >
+  - Types
+    + Message passing
+    >
+    + RPC
+    >
+    + Object-oriented
+    >
+
+## Distributed System Management
