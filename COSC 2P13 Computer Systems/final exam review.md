@@ -293,4 +293,11 @@
   > periodic deadlock checks
 
 
+## Input and Output
 
+- Device Controllers
+>
+- Role of interrupts
+>
+- Performing I/O
+> 
