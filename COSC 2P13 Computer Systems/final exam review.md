@@ -235,6 +235,7 @@
   + nonpreemptable
   >
   + consumable
+  >
 - 3 + 1 iff conditions for deadlocks
 >
 - dealing with deadlocks
