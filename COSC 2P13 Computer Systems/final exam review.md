@@ -27,11 +27,12 @@
 >Generally part of the operating system
 
 + Uniprogramming
->
+> Processor must wait for I/O instructions to complete before preceding
 
 + Multiprogramming
->
-
+> When one jobes needs to wait for I/O
+> + The processor can switch to another other job
+![Alt text](chrome_mtZW3WL3Cs.png)
 + Time sharing
 >
 
