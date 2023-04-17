@@ -219,7 +219,8 @@
   >   - no process can monopolize the processor for very long
   + Scheduling policies
     - FCFS
-    >
+    > First come first served
+    > ie. first in for out (FIFO)
     - Round-Robin
     > 
     - Shortest process next
