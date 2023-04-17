@@ -269,7 +269,13 @@
   > resources are produced and consumed
   > sender/receiver
 - 3 + 1 iff conditions for deadlocks
->
+> 1. Mutual exclusion: only one process may use a resource at a time
+> 2. Hold and wait : process can hold resources while waiting for more
+> 3. No preemption : can't force any resources out of processes
+> 4. Circular wait : a close chain of processes exists
+
+> possibility of a deadlock if: 1, 2 and 3
+> existence of a deadlock if: 1,2,3 and 4
 - dealing with deadlocks
   + ignoring
   >
