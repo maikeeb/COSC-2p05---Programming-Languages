@@ -104,7 +104,7 @@
 >     - Preventing more than one process from using the shared memory at the same time
 
 + Critical Regions:
->
+>![Alt text](chrome_xExkBd1NCs.png)
 
 + Mutual Exclusions:
 >
