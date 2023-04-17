@@ -143,7 +143,10 @@
 
   + Techniques
     - Fixed partitioning 
-    >
+    > - Equal size partitions
+    >   + any process whose size is less than or equal to the partition size can be loaded into an available partition
+    >   + Operating system can swap a process out of partition if all partitions are full
+    >  + Program may not fit in a partition
     - Dynamic partitioning
     >
     - Simple paging
