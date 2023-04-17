@@ -362,3 +362,10 @@
 
 + Networking layers - Datagrams
 > 
+- - Functions
+  >
+  - IP addressing
+  >
+  - Routing alorithms
+  >
+  - 
