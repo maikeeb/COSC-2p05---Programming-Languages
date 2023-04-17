@@ -255,14 +255,15 @@
 > + if each process in the set waits for an event 
 > + event can be generated only by another process in the set that is already waiting for another "internal" event
 - livelock
->
+> where multiple processes rely on each other to continue so they are running but nothing is getting done
 - starvation
->
+> a type of livelock where nothing can start working as multiple processes want the one resource
 - Resources
   + Preemptable
-  >
+  > Taken away from a process with no ill effects
   + nonpreemptable
-  >
+  > Cannot be taken away 
+  >  + as is would cause the process to fail
   + consumable
   > resources are created and destroyed
   > resources are produced and consumed
