@@ -152,7 +152,7 @@
     - Dynamic partitioning
     > + Partitions are of variable length and number
     > + Process is allocated exactly as much memory is required
-    > + **External fragmentation** eventually get holes in the memory (inefficiency)
+    > + **External fragmentation** eventually get holes in the memory (inefficiency)![Alt text](chrome_ESRug3ABe1.png)
     - Simple paging
     >
     - Simple segmentation 
