@@ -11,7 +11,7 @@
 >Faster access time, greater cost per bit
 >Greater capacity, smaller cost per bit
 >Greater capacity, slower access speed
-
+![Alt text](chrome_ZEl8IvTlve.png)![Alt text](chrome_t18lR0saNH.png)
 + Interrupts
 >
 
