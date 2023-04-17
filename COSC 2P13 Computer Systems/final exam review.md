@@ -278,13 +278,15 @@
 > existence of a deadlock if: 1,2,3 and 4
 - dealing with deadlocks
   + ignoring
-  >
+  > ignoring the problem ie do nothing
   + prevention
-  >
+  > + disallow one of the 3 deadlock conditions
+  > + prevent circular wait
   + avoidance
-  > 
+  > + careful resource allocation
+  > + not granting resource request if leading to a deadlock
   + detection
-  >
+  > periodic deadlock checks
 
 
 
