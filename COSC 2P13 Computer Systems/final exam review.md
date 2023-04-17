@@ -175,10 +175,15 @@
   > - Swapping out a piece of a process just before that piece is needed 
   > - The processor spends most of its time swapping pieces rather than executing user instructions
   + Principle of locality
-  > - Program 
+  > - Program and data references within a process tend to cluster
+  > - Only a few pieces of a process will be needed over a short period of time
+  > - Possible to make intelligent guess about which pieces will be need in the future
   + Strategies
     - Paging
-    >
+    > + each process has its own page table
+    > + each page table entry contains:
+    >   - contains the frame number of the corresponding page in main memory
+    > + a bit is needed to indicate whether the page is in main memory or not![Alt text](chrome_iCASBIPPFx.png)
     - Segmentation
     >
   + Placement policy
