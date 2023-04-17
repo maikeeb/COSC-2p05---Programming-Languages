@@ -107,7 +107,7 @@
 >![Alt text](chrome_xExkBd1NCs.png)
 
 + Mutual Exclusions:
->
+> Only one proccess can have access to a critical region in main memory
 
 + Busy Waiting:
 >
