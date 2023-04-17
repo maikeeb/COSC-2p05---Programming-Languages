@@ -264,7 +264,9 @@
   + nonpreemptable
   >
   + consumable
-  >
+  > resources are created and destroyed
+  > resources are produced and consumed
+  > sender/receiver
 - 3 + 1 iff conditions for deadlocks
 >
 - dealing with deadlocks
