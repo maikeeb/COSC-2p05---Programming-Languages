@@ -165,7 +165,10 @@
     > + reduces internal fragmentation
     > + avoids external fragmentation
     - Simple segmentation 
-    > + 
+    > + all segments of all programs do not have be of the same length
+    > + there is a maximum segment length
+    > + reduces external fragmentation
+    > + avoids internal fragmentation
 
 - **Virtual Memory**
   + Trashing
