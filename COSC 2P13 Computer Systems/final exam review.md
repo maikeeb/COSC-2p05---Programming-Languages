@@ -385,3 +385,32 @@
   + Switches vs routers
   >
 
+## Multiple processor systems
+
++ types of MPS
+  - Loosely coupled
+  >
+  - specialized processors
+  >
+  - tightly coupled
+  >
++ Parallelism granularity
+>
++ Scheduling
+>
++ - Assignment
+  >
+  - multiprogramming
+  >
+  - dispatching
+  >
+  - thread scheduling in MPS
+  >
+
+## Real-time Systems
+
++ Definition of real- time systems
+>
+
++ features of real-time systems
+> 
