@@ -110,7 +110,7 @@
 > Only one proccess can have access to a critical region in main memory
 
 + Busy Waiting:
->
+> W
 
 + Sleep and wakeup
 >
