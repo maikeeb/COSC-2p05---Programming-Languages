@@ -197,6 +197,55 @@
   > + most policies predict the future behaviour on the basis of past behaviour
 
 ## Process Scheduling in Uniprocessor Systems
+- Scheduling in Uniprocessor Systems
+  + Turnaround
+  >
+  + Response time
+  >
+  + throughput
+  >
+  + fairness
+  > 
+  + Cpu utilization
+  > 
+  + Preemptiveness
+  >
+  + Scheduling policies
+    - FCFS
+    >
+    - Round-Robin
+    > 
+    - Shortest process next
+    >
+    - Highest response ration next
+    >
+    - Feedback
+
+
+## Deadlocks
+- deadlock definition
+>
+- livelock
+>
+- starvation
+>
+- Resources
+  + Preemptable
+  >
+  + nonpreemptable
+  >
+  + consumable
+- 3 + 1 iff conditions for deadlocks
+>
+- dealing with deadlocks
+  + ignoring
+  >
+  + prevention
+  >
+  + avoidance
+  > 
+  + detection
+  >
 
 
 
