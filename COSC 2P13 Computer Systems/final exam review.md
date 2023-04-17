@@ -81,7 +81,7 @@
 
 + Multithread process model
 > Operating system supports multiple threads of execution within a single process
-![Alt text](chrome_6HJk1TBbDr.png)
+> ![Alt text](chrome_6HJk1TBbDr.png)
 + Types of threads:
   - user-level
   > * All thread management is done by the application
@@ -148,11 +148,12 @@
     >   + Operating system can swap a process out of partition if all partitions are full
     >  + Program may not fit in a partition
     >  + **causes internal fragmentation**
-    ![Alt text](chrome_lE89sMisTh.png)
+    > ![Alt text](chrome_lE89sMisTh.png)
     - Dynamic partitioning
     > + Partitions are of variable length and number
     > + Process is allocated exactly as much memory is required
-    > + **External fragmentation** eventually get holes in the memory (inefficiency)![Alt text](chrome_ESRug3ABe1.png)
+    > + **External fragmentation** eventually get holes in the memory (inefficiency)
+    > ![Alt text](chrome_ESRug3ABe1.png)
     - Simple paging
     > + fixed and variable-size partitions are inefficient
     >   - internal and external fragmentation
@@ -161,7 +162,8 @@
     >   - Dividing each process into the small size chunks
     >   - Chunks of a process are called pages
     >   - Chunks of memory are called frames
-    > + Operating system maintain a **page table** for each process![Alt text](chrome_sqjCIdZ8XU.png)
+    > + Operating system maintain a **page table** for each process
+    > ![Alt text](chrome_sqjCIdZ8XU.png)
     > + reduces internal fragmentation
     > + avoids external fragmentation
     - Simple segmentation 
@@ -183,12 +185,14 @@
     > + each process has its own page table
     > + each page table entry contains:
     >   - contains the frame number of the corresponding page in main memory
-    > + a bit is needed to indicate whether the page is in main memory or not![Alt text](chrome_iCASBIPPFx.png)
+    > + a bit is needed to indicate whether the page is in main memory or not
+    > ![Alt text](chrome_iCASBIPPFx.png)
     - Segmentation
     > + May be unequal -> dynamic size
     > + simplifies handling of growing data structures
     > + allows programs to be altered and recompiled independently 
-    >   - multiple segments![Alt text](chrome_04bDvO3iSx.png)
+    >   - multiple segments
+    > ![Alt text](chrome_04bDvO3iSx.png)
   + Placement policy
   > - it determines where in real memory a process peice is to reside
   > - important in a segmentation system 
@@ -221,7 +225,7 @@
     - FCFS
     > First come first served
     > ie. first in for out (FIFO)
-    >![Alt text](chrome_FZwQDWYTBv.png)
+    > ![Alt text](chrome_FZwQDWYTBv.png)
     - Round-Robin
     > Straightforward scheme
     > + preemption
@@ -233,13 +237,13 @@
     > + greedy approach: optimization problems
     > + drawbacks:
     >   - rely on statistics (previous runs)
-    >![Alt text](chrome_E2Ssx4jJOJ.png)
+    > ![Alt text](chrome_E2Ssx4jJOJ.png)
     - Highest response ration next
     > Choose next process with greatest ratio
     > - Ratio → (w + s ) / s
     >   + w → time waiting for processor
     >   + s → expected service time
-    >![Alt text](chrome_mUbd2CUkvX.png)
+    > ![Alt text](chrome_mUbd2CUkvX.png)
     - Feedback
     > + No way to estimate the relative length of a process
     >   - no use of SPN, SRT, HRRN
