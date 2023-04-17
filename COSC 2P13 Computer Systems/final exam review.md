@@ -128,10 +128,18 @@
 
 - **Main Memory management**
   + Recolation
-  >
+  > + Programmer does not know where the program will be placed in memory when it is executed
+  > + While the program is executing
+  >   - it may be swapped to disk and returned to main memeory at a different location
+  >     * Relocated
+  > + Memory references must be translated in the code to actual physical memory address
 
   + Protection
-  >
+  > + Processes should not be able to reference memory locations in another process without permision
+  > + Impossible to check absolute addresses at compile time
+  >   - It must be checked only at run-time
+  > + memory protection requirement must be satisfied by the processor (hardware) rather than the operating system (software)
+  >   - Operating system cannot anticipate all of the memory references a program will make
 
   + Techniques
     - Fixed partitioning 
